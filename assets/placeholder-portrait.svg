@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.55" stop-color="#2456e6"/>
+      <stop offset="1" stop-color="#3b6bff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="34%" r="60%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#bg)"/>
+  <rect width="500" height="500" fill="url(#glow)"/>
+
+  <!-- Silhouette -->
+  <g fill="#0a1024" opacity="0.9">
+    <circle cx="250" cy="188" r="82"/>
+    <path d="M250 288c-88 0-152 52-164 132a12 12 0 0 0 12 14h304a12 12 0 0 0 12-14c-12-80-76-132-164-132z"/>
+  </g>
+</svg>
