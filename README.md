@@ -4,6 +4,18 @@ A modern, responsive one-page portfolio for **Salman Ahmed**, a growth & paid-me
 strategist. Built as a fast, dependency-free static site (HTML, CSS, vanilla JS) that
 you can host anywhere.
 
+## ⚠️ Before publishing
+
+The page still contains template content. Replace or remove these before the
+site goes live or is linked from a profile:
+
+- [ ] Headshot at `assets/salman-ahmed.jpg`
+- [ ] Stats in the *Results* section (`data-target` values) — use real, verifiable numbers
+- [ ] Case studies in the *Work* section — real projects only
+- [ ] Testimonials — real client quotes, used with permission
+- [ ] Email, WhatsApp and social links
+- [ ] Contact form `action` (it has no backend yet)
+
 ## 📸 Add your photo (important)
 
 The site is already wired to use your photo — you just need to drop the file in:
@@ -56,3 +68,7 @@ python3 -m http.server 8000
 
 Drag-and-drop the folder to Netlify, or push to GitHub and enable GitHub Pages / Vercel.
 No build step required.
+
+This repository has no package manager or build tooling, so it has no CI
+workflow or Dependabot version-update config. Add them if a build step or npm
+dependencies are introduced later.
